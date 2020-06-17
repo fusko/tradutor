@@ -1,0 +1,9 @@
+C:\Users\diogo\Documents\tradut\tradut\bin\Debug\tradut.exe.config
+C:\Users\diogo\Documents\tradut\tradut\bin\Debug\tradut.exe
+C:\Users\diogo\Documents\tradut\tradut\bin\Debug\tradut.pdb
+C:\Users\diogo\Documents\tradut\tradut\obj\Debug\tradut.csprojAssemblyReference.cache
+C:\Users\diogo\Documents\tradut\tradut\obj\Debug\tradut.Form1.resources
+C:\Users\diogo\Documents\tradut\tradut\obj\Debug\tradut.Properties.Resources.resources
+C:\Users\diogo\Documents\tradut\tradut\obj\Debug\tradut.csproj.GenerateResource.cache
+C:\Users\diogo\Documents\tradut\tradut\obj\Debug\tradut.exe
+C:\Users\diogo\Documents\tradut\tradut\obj\Debug\tradut.pdb
