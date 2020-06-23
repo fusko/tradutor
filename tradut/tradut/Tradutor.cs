@@ -9,21 +9,24 @@ namespace tradut
 {
     class Tradutor
     {
-        public List<Algoritmo> palavras;
-        public List<Algoritmo> tolkens;
+        public List<Token> palavras;
+        public List<Token> tolkens;
+        public Dictionary<Token, string> MapTokens;
+        
 
         public Tradutor()
         {
-            palavras= new List<Algoritmo>();
-            tolkens = new List<Algoritmo>();
+            palavras= new List<Token>();
+            tolkens = new List<Token>();
+            MapTokens = new Dictionary<Token, string>();
             popular();
             
         }
         public void popular()
         {
-            Algoritmo var = new Algoritmo();
+            Token var = new Operador();
             var.Equivalente="erer";
-            var.Expressao = "^var";
+            var.Expressao = "^var ";
             palavras.Add(var);
         }
         public string[] Fragmentar(string codigo)
@@ -31,6 +34,7 @@ namespace tradut
            return codigo.Split(new[] { "\r\n", "\r", "\n" },
     StringSplitOptions.None);
         }
+
 
 
         public List<string> Traduzir(string codigo)

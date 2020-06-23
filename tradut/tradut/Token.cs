@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace tradut
 {
-    class AnalizadorLexico
+   public abstract class Token
     {
-        List<Token> tolkens;
-
-        AnalizadorLexico()
-        {
-            tolkens = new List<Token>();
-        }
-
+       public string Expressao;
+       public string Equivalente;
+       
     }
 }

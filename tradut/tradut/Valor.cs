@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace tradut
 {
-   public abstract class Reservada
+    class Valor:Token
     {
-       public string Expressao;
-       public string Equivalente;
-       
+
     }
 }

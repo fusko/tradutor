@@ -28,6 +28,8 @@ namespace tradut
 
             List<string> traduzido = tradutor.Traduzir(textBox1.Text);
 
+
+
             foreach (var item in traduzido)
             {
                 textBox2.Text +=item;
