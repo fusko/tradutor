@@ -24,17 +24,11 @@ namespace tradut
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(textBox1.Text);
+            textBox2.Text= tradutor.Traduzir(textBox1.Text);            
+            
+        
 
-            List<string> traduzido = tradutor.Traduzir(textBox1.Text);
 
-
-
-            foreach (var item in traduzido)
-            {
-                textBox2.Text +=item;
-            }
-          
 
         }
 
@@ -45,6 +39,14 @@ namespace tradut
         }
 
 
+       
+
+        public string tiraComments()
+        {
+            var regex = new Regex(@"\/\/\s(.*)", RegexOptions.IgnoreCase);
+            string result = regex.Replace(textBox1.Text,"");
+            return result;
+        }
     }
 
    

@@ -13,3 +13,7 @@ C:\Users\diogo\Documents\tradutor\tradut\tradut\obj\Debug\tradut.Properties.Reso
 C:\Users\diogo\Documents\tradutor\tradut\tradut\obj\Debug\tradut.csproj.GenerateResource.cache
 C:\Users\diogo\Documents\tradutor\tradut\tradut\obj\Debug\tradut.exe
 C:\Users\diogo\Documents\tradutor\tradut\tradut\obj\Debug\tradut.pdb
+C:\Users\diogo\Documents\tradutor\tradut\tradut\bin\Debug\tradut.exe.config
+C:\Users\diogo\Documents\tradutor\tradut\tradut\bin\Debug\tradut.exe
+C:\Users\diogo\Documents\tradutor\tradut\tradut\bin\Debug\tradut.pdb
+C:\Users\diogo\Documents\tradutor\tradut\tradut\obj\Debug\tradut.csproj.CoreCompileInputs.cache
